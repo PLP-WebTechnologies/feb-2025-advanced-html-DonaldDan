@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Html Assignment</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Week 2 Html Assignment</h1>
+  </header>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section>
+    <h2>Roman Numeral List</h2>
+    <ol type="I">
+      <li>Introduction</li>
+      <li>Overview</li>
+      <li>Features</li>
+      <li>Contact</li>
+      <li>Register</li>
+    </ol>
+  </section>
+
+  <!-- External Image from Pexels -->
+  <section>
+    <h2>Image from Pexels</h2>
+    <img 
+      src="https://images.pexels.com/photos/31325633/pexels-photo-31325633/free-photo-of-fresh-tomatoes-in-bowl-by-rustic-doorstep.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" 
+      alt="Tomatos on the table" 
+      width="600" 
+    />
+  </section>
+
+  <!-- Contact Table -->
+  <section>
+    <h2>Contact List</h2>
+    <table border="1" cellpadding="8">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Phane peter</td>
+          <td>123 Kisii St</td>
+          <td>+2547689000</td>
+          <td>Phane@example.com</td>
+        </tr>
+        <tr>
+          <td>Danied Sam</td>
+          <td>456 Narok</td>
+          <td>+25476543210</td>
+          <td>danied@example.com</td>
+        </tr>
+        <tr>
+          <td>Mary Moraa</td>
+          <td>7849 Nakuru</td>
+          <td>+2541223355</td>
+          <td>oraa@example.com</td>
+        </tr>
+        <tr>
+          <td>Robert Okwanyi</td>
+          <td>3521 Kayole</td>
+          <td>+25478776655</td>
+          <td>kwanyi@example.com</td>
+        </tr>
+        <tr>
+          <td>Emily Ontond</td>
+          <td>654 Msouth MIOT</td>
+          <td>+25476778899</td>
+          <td>emily@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+      
+      <!-- Name Field -->
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required /><br><br>
+
+      <!-- Email Field -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required /><br><br>
+
+      <!-- Password Field -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Create a password" required minlength="6" /><br><br>
+
+      <!-- Date Field -->
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required /><br><br>
+
+      <!-- Dropdown Field -->
+      <label for="role">Select Role:</label>
+      <select id="role" name="role" required>
+        <option value="">--Choose a role--</option>
+        <option value="student">Student</option>
+        <option value="developer">Developer</option>
+        <option value="designer">Designer</option>
+        <option value="Instructor">Instructor</option>
+      </select><br><br>
+
+      <!-- Radio Buttons -->
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br>
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">Other</label><br><br>
+
+      <!-- Checkboxes -->
+      <p>Skills:</p>
+      <input type="checkbox" id="html" name="skills" value="HTML" />
+      <label for="html">HTML</label><br>
+      <input type="checkbox" id="css" name="skills" value="CSS" />
+      <label for="css">CSS</label><br>
+      <input type="checkbox" id="js" name="skills" value="JavaScript" />
+      <label for="js">JavaScript</label><br><br>
+
+      <!-- Submit Button -->
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; SAD Donald 2025 All Rights are Reserverd</p>
+  </footer>
+
+</body>
+</html>
